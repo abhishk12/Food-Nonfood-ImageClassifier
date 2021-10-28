@@ -12,7 +12,7 @@ model = keras.models.load_model(MODEL_PATH)
 
 
 app = Flask(__name__)
-app.config["IMAGE_UPLOADS"] = "./static/allimages/uploaded_images/"
+app.config["IMAGE_UPLOADS"] = "./static/"
 app.config["ALLOWED_EXTENSIONS"] = ["png", "jpg", "jpeg"]
 
 def allowed_ext(filename):
@@ -59,7 +59,7 @@ def upload_image():
             elif (pred_class >=50):
                 answer = "Non-Food"
             
-    return render_template("index.html", prediction_text = "Given image is {}".format(answer), filename = "allimages/uploaded_images/"+filename__)           
+    return render_template("index.html", prediction_text = "Given image is {}".format(answer), filename = filename__)           
 
 
 if __name__ == ('__main__'):
