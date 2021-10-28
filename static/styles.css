@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Glory', sans-serif;
+    background-color: rgb(223, 223, 223);
+}
+
+.navbar{
+ 
+    margin:0 auto;
+    width: 100vw;
+    /* height: 3em; */
+    background-color: black;
+    color: whitesmoke;
+}
+
+.heading{
+    margin-top: 0;
+    padding-top: 1em;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+}
+
+.name{
+    text-align: center;
+    font-size: 1rem;
+    /* margin-bottom: 4em; */
+    padding-bottom: 1em;
+  
+}
+
+
+
+.container{
+    margin: 2em auto;
+    width: 60%;
+    background-color: rgb(255, 0, 128);
+    border-radius: 3px;
+    padding: 2em;
+}
+
+.form-container{
+    
+    /* border: 1px solid rgb(255, 255, 255);  */
+    border-radius: 3px;
+
+}
+
+.input-container{
+    margin: 1.5em auto;
+    width: 50%;
+    /* background-color: magenta; */
+
+}
+
+.file-input{
+    width: 100%;
+    
+    font-size: 1.3rem;
+    /* background-color: whitesmoke; */
+    color: gray;
+}
+
+.image-container{
+    height: 20em;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(97, 97, 97);
+}
+
+.show-image{
+    height: 100%;
+    width: 100%;
+}
+
+.result{
+    margin: 0 auto;
+    width: 50%;
+    /* border: 1px solid whitesmoke; */
+    
+}
+
+.result-class{
+    color: whitesmoke;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-container{
+    margin: 0 auto;
+    width: 20%;
+    padding: 1.5em;
+    
+}
+
+.submit-button{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 0.5em;
+    color: rgb(100, 98, 98);
+    border-radius: 2px;
+    border: none;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.submit-button:hover{
+    background-color: rgb(223, 221, 221);
+    
+}
+
+
+.footer{
+    background-color: black;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+
+.links{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.links:hover{
+    color: gray;
+}
