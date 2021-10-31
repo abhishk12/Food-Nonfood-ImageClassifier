@@ -14,4 +14,4 @@ The dataset used for the project is [Food-5K](https://www.epfl.ch/labs/mmspg/dow
 _I downloaded the whole dataset and uploaded on google drive so that I can access it through my Google Colab account._
 
 # Preparing Dataset
-The images from the raw dataset were of different sizes. To feed the images to CNN, the images should be of same size. As preprcessing step, I resized all the images to a shape of `( 64, 64, 3 )` and divided all the images into train, validation and evaluation dataset. Finally all these numpy arrays were saved in the format of `hdf5` file format so that I can load it anytime and start working on that instead of loading the whole dataset again. 
+The images from the raw dataset were of different sizes. To feed the images to CNN, the images should be of same size. As preprocessing step, I resized all the images to a shape of `( 64, 64, 3 )` and divided all the images into train, validation and evaluation dataset. Finally all these numpy arrays were saved in the format of `hdf5` file format so that I can load it anytime and start working on that instead of loading the whole dataset again. 
