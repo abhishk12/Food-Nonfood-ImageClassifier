@@ -24,7 +24,8 @@ Keras' Sequential API is the easiest way to model any deep learning model. I hav
 <img width="500" alt="model_summary" src="https://user-images.githubusercontent.com/65041091/139639562-066f99a3-835c-4c26-98dc-03a733dae0c6.PNG">
 
 # Training
-
+The model was trained for `12 epochs` for `batch size = 32`. Training accuracy was found to be **`97.53%`** or training error of **`2.47%`**
 # Evaluation
-
+The model was evaluated on evaluation data and accuracy was found to be **`86.69%`**. Here we can clearly see that there is **variance problem** as there is a difference of about `10.84%`. This problem can further be improved tuning regularization parameters and using resnets.  
 # Deployment
+Finally I deployed my model on free deploying service provided by **Heroku**.
