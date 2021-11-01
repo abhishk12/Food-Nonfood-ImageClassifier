@@ -1,4 +1,4 @@
-# Preview
+# Demo
 ![video](https://user-images.githubusercontent.com/65041091/139660888-1f3018f7-7389-4fa2-998d-bb71ac536722.gif)
 
 
