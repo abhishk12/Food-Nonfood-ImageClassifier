@@ -15,3 +15,16 @@ _I downloaded the whole dataset and uploaded on google drive so that I can acces
 
 # Preparing Dataset
 The images from the raw dataset were of different sizes. To feed the images to CNN, the images should be of same size. As preprocessing step, I resized all the images to a shape of `( 64, 64, 3 )` and divided all the images into train, validation and evaluation dataset. Finally all these numpy arrays were saved in the format of `hdf5` file format so that I can load it anytime and start working on that instead of loading the whole dataset again. 
+
+# Modelling
+
+Keras' Sequential API is the easiest way to model any deep learning model. I have implemented 3 convolutional layers and a dense layer at last which uses sigmoid function.
+### Model architecture
+
+<img width="500" alt="model_summary" src="https://user-images.githubusercontent.com/65041091/139639562-066f99a3-835c-4c26-98dc-03a733dae0c6.PNG">
+
+# Training
+
+# Evaluation
+
+# Deployment
