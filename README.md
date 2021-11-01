@@ -28,4 +28,4 @@ The model was trained for `12 epochs` for `batch size = 32`. Training accuracy w
 # Evaluation
 The model was evaluated on evaluation data and accuracy was found to be **`86.69%`**. Here we can clearly see that there is **variance problem** as there is a difference of about `10.84%`. This problem can further be improved tuning regularization parameters and using resnets.  
 # Deployment
-Finally I deployed my model on free deploying service provided by **Heroku**.
+Finally I deployed my model on free deploying service provided by **[Heroku](https://www.heroku.com/ "Heroku")**.
